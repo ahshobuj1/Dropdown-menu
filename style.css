@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#drop-head{
+    width: 100%;
+    background: #7d5fff;
+    margin-top: 20px;
+}
+#drop-head ul{
+    text-align: center;
+}
+#drop-head ul li{
+    display: inline-block;
+    position: relative;
+    padding: 6px 4px;
+}
+#drop-head ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+#drop-head ul li:hover{
+    background: #ff3838;
+}
+
+/*Dropdown*/
+#drop-head ul li ul{
+    position: absolute;
+    background: #3ae374;
+    top: 30px;
+    left: 0;
+    width: 130px;
+    text-align: left;
+    padding-top: 5px;
+    display: none;
+    z-index: 10;
+}
+#drop-head ul li ul li{
+    display: block;
+}
+#drop-head ul ul li:hover{
+    background-color:#1420a0 ;
+}
+#drop-head ul li:hover ul{
+    display: block;
+}
